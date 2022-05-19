@@ -1,0 +1,105 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: monospace;
+}
+
+section {
+    margin: 50px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(255, 137, 137), rgb(255, 249, 158));
+    background-attachment: fixed;
+}
+
+/*section {
+    background: red;
+}
+
+div {
+    background: blue;
+}*/
+
+section {
+    padding: 50px;
+}
+
+.mn {
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+    transition: background .4s;
+}
+
+.mn:hover{
+    background-color: rgb(174, 212, 255);
+}
+
+.tiktok-embed {
+    width: 80%;
+}
+
+.imgzz2 {
+    width: 72%;
+    transition: width .4s;
+}
+
+.imgzz2:hover {
+    width: 79%;
+}
+
+.imgzz {
+    width: 92%;
+    transition: width .4s;
+}
+
+.imgzz:hover {
+    width: 100%;
+}
+
+.img {
+    transform: translate(45%, -30%);
+    width: 32%;
+}
+
+.imge {
+    width: 40%;
+}
+
+.txe {
+    font-size: 14px;
+    width: 600px;
+}
+
+.texto {
+    font-size: 14px;
+    width: 250px;
+    transform: translate(-60%, 30%);
+}
+
+.line {
+
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    margin: 6px auto;
+}
+
+.menu {
+    z-index: 10;
+    position: fixed;
+    list-style: none;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.978);
+    width: 100%;
+    transform: translate(0%, -103%);
+    
+}
+
+.menu li{
+    display: inline;    
+}
